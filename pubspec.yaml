@@ -1,0 +1,29 @@
+name: pacman_clock
+description: Pacman Digital Clock by Tran Linh
+
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/map.json
+   - assets/pacman_position.json
+   - assets/white_ghost_position.json
+   - assets/blue_ghost_position.json
+   - assets/green_ghost_position.json
+   - assets/pink_ghost_position.json
